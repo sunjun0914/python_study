@@ -152,6 +152,7 @@ print(interest)
 -리스트 정렬
 
 '''
+
 data = [2, 4, 3, 1, 5, 10, 9]
 data.sort()
 print(data)
@@ -161,6 +162,7 @@ data = [2, 4, 3, 1, 5, 10, 9]
 data2 = sorted(data)
 print(data2)
 (data2에 data를 오름차순으로 정렬한 것을 저장)
+
 ```
 
 
