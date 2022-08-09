@@ -166,7 +166,7 @@ print(data2)
 
 #2022-08-09
 
--튜플 생성및저장
+- 튜플 생성및저장
 ```
 -튜플 생성
 my_variable = ()
@@ -182,12 +182,68 @@ type(number)
 
 -원칙적으로 튜플은 괄호와 함께 데이터를 정의해야 하지만, 사용자의 편의의 따라 괄호없이도 동작 가능
 t = 1, 2, 3, 4
-'''
--튜플 변환
+```
+
+- 튜플 변환
 ```
 -('a','b','c')가 입력된 변수 t가 ('A','b','c')튜플을 가리키도록 수정
+(튜플의 값은 변경이 불가해  t[0] = 'A'  과 같은 코드는 동작이 불가능,변수를 업데이트 해야됨)
+
 t = ('a','b','c')
-# 
+t = ('A','b','c')
+
+-튜플을 리스트로 변환
+
+interest = ('삼성전자','LG전자','SK Hynix')
+interest_list = list(interest)
+type(interest_list)
+
+-리스트를 튜플로 변환
+
+interest = ('삼성전자','NAVER','SK하이닉스')
+interest_tuple = tuple(interest)
+type(interest_tuple)
+```
+
+- range함수(정수 생성)
+```
+-1부터 99까지의 정수중 짝수만 저장된 튜플 생성
+number = tuple(range(2,100,2))
+print(number)
+
+-1부터 99까지의 정수중 홀수만 저장된 튜플 생성
+number = tuple(range(1,100,2))
+print(number)
+```
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
