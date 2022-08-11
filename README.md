@@ -164,7 +164,7 @@ print(data2)
 
 ```
 
-#2022-08-09
+# 2022-08-09
 
 - 튜플 생성및저장
 ```
@@ -215,24 +215,71 @@ print(number)
 number = tuple(range(1,100,2))
 print(number)
 ```
+# 2022-08-11
 
--
+- 딕셔너리 만들기
+```
+- 딕셔너리 = {키1:값1,키2:값2}
+lucian = {'health':490,'mana':334,'melee':550,'armor':18.72)
+```
+- dick로 딕셔너리 만들기
+```
+-딕셔너리 = dick()
 
+- 딕셔너리 = dick(키1=값1,키2=값2)
+lucian1 = dict(health=490,mana=334,melee=550,armor=18.72)
+lucian1
 
+- 딕셔너리 = dick(zip([키1,키2],[값1,값2]))
+lucian2 = dict(zip(['health','mana','melee','armor'],[490,334,550,18.72))
+lucian2
 
+- 딕셔너리 = dick([(키1,값1)],[(키2,값2)])
+lucian3 = dick([(health,550),(mana,334),(melee,550),(armor,18.72)])
+lucian3
 
+- 딕셔너리 = dick({키1:값1,키2:값2})
+lucian4 = dick({'health':550,'mana':334,'melee':550,'armor':18.72})
+lucian4
 
+실행결과
+{'health': 490, 'mana': 334, 'melee': 550, 'armor': 18.72}
+```
+- 딕셔너리에 접근하고 값 할당하기
+```
+lucian = {'health':490,'mana':334,'melee':550,'armor':18.72}
+lucian['health']
+실행결과
+490
+lucian['armor']
+18.72
 
+*딕셔너리에 키를 저장하지 않으면 헤당 딕셔너리 전체를 뜻함
+```
+- 딕셔너리의 키의 값 할당하기
+```
+lucian = {'health':490,'mana':334,'melee':550,'armor':18.72}
+lucian['health'] = 2037
+lucian['mana'] = 2399
+lucian
 
+실행결과
+{'health':2037 'mana':2399,'melee':550,'armor':18.72}
 
+lucian = {'health':490,'mana':334,'melee':550,'armor':18.72}
+lucian['mana_regen'] = 3.66
+lucian
+실행결과
+{'health':490,'mana':334,'melee':550,'armor':18.72,'mana_regen':3.66}
+```
 
-
-
-
-
-
-
-
+- 딕셔너리에 키가 있는지 확인
+```
+lucian = {'health':490,'mana':334,'melee':550,'armor':18.72}
+'health' in lucian
+결과: True
+'attack_speed'in lucian
+결과: False
 
 
 
