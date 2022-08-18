@@ -280,7 +280,35 @@ lucian = {'health':490,'mana':334,'melee':550,'armor':18.72}
 결과: True
 'attack_speed'in lucian
 결과: False
+'health' not in lucian
+결과: False
+'attack_speed' not in lucian
+결과: True
+```
+# 2022-08-18
+- if 조건문
+```
+if 조건식:
+    코드
+만약 조건식이 참이라면 코드를 실행한다
+ x = 10
+ if x == 10:]
+    print('10입니다.')
+  
+ 결과: 10입니다
+```
+-if 조건문 들여쓰기
+```
+x = 10 
+if x == 10:
+    print('x에 들어있는수는')
+        print('10입니다')
+       
+오류발생
+두번째 print도 4칸 들여쓰기를 해야됨
 
+x = 5
+if x == 10:
 
 
 
