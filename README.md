@@ -415,7 +415,13 @@ else:
 입력:3 -> 결과:환타
 입력:4 -> 결과:제공하지 않는 음료
 ```
-
+-for와 range 사용
+형태:
+for 변수 in range(횟수):
+    반복할 코드
+예시)
+for i in range 100:
+    print(Hi,i)
 
 
 
